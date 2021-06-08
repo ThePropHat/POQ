@@ -19,7 +19,14 @@ h1{
 </style>
 
 <body>
-	<embed name="GoodEnough" src="pilotredsun-Achievement-03-casin.mp3" loop="true" hidden="true" autostart="true"> </embed>
+	
+	<audio src="pilotredsun-Achievement-03-casin.mp3" id="my_audio" loop="loop"></audio>
+  <script type="text/javascript">
+    window.onload=function(){
+      document.getElementById("my_audio").play();
+    }
+  </script>
+
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VJV94FVF0"></script>
