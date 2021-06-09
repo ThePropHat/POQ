@@ -17,7 +17,11 @@ body {
 
 /* Defines the active page's link colour */
 .active {
-  background-color: lime;
+  background-color: SpringGreen;
+}
+
+.active:hover {
+  backgorund-color: SeaGreen;
 }
 
 /* Nav Links */
