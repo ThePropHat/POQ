@@ -263,7 +263,7 @@ marquee {
 .rainbow {
   text-align: center;
   font-size: 32px;
-  font-family: "Comic Sans MS";
+  font-family: "font-family: 'Comic Neue', cursive;";
   letter-spacing: 5px;
   animation: colorRotate 6s linear 0s infinite;
 }
